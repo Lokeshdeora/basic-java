@@ -1,0 +1,167 @@
+public class Int {
+    public static void main(String[] args) {
+        int a=67;
+        System.out.println("the value of a is"+a);
+    }
+}
+------------------------------------------------------
+public class Float {
+    public static void main(String[]args){
+        float a=2.35f;
+        System.out.println("the float value of a is"+a);
+    }
+}
+------------------------------------------------------------
+public class Char {
+    public static void main(String[] args) {
+        char a='w';
+        System.out.println("the valur of a is "+a);
+    }
+}
+---------------------------------------------------------------
+public class All {
+    public static void main(String[] args) {
+        //12342
+       // 4.56
+        //f
+        //-32
+        //4.5
+        int a=12342;
+        float b=4.56f;
+        char c='f';
+        int d=-32;
+        float e=4.5f;
+        System.out.println(" "+a);
+        System.out.println(" "+b);
+        System.out.println(" "+c);
+        System.out.println(" "+d);
+        System.out.println(" "+e);
+    }
+}
+-----------------------------------------------------------------
+public class Add {
+    public static void main(String[] args) {
+        int a=34;
+        int b=78;
+        int c=a+b;
+        System.out.println("c="+c);
+    }
+}
+-----------------------------------------------------------------
+public class Sub {
+    public static void main(String[] args) {
+        int a=23;
+        int b=6;
+        int c=a-b;
+        System.out.println("c="+c);
+    }
+}
+-----------------------------------------------------------------
+public class Multi {
+    public static void main(String[] args) {
+        int a=45;
+        int b=2;
+        int c=a*b;
+        System.out.println("c="+c);
+    }
+}
+------------------------------------------------------------------
+public class Div {
+    
+        public static void main(String[] args) {
+            int a=56;
+            int b=2;
+            int c=a/b;
+            System.out.println("c="+c);
+    }
+}
+----------------------------------------------------------------
+public class Al {
+    public static void main(String[] args) {
+        int a=45,b=78,c=23,d=12;
+        int e=a+b+c+d;
+        System.out.println("e="+e);
+        }
+}
+--------------------------------------------------------------
+public class Al {
+    public static void main(String[] args) {
+        int a=56,b=34,c=12,d=2,e=13;
+        int f=a*b+c/d-e;
+        System.out.println("f="+f);
+        }
+}
+-------------------------------------------------------------
+public class Al {
+    public static void main(String[] args) {
+        float a=1.2f,b=6.7f,c=4.5f,d=2f;
+        float e=a*b-c/d;
+        System.out.println("e="+e);
+        }
+}
+-------------------------------------------------------------
+public class Al {
+    public static void main(String[] args) {
+        float a=1.6f;
+        int b=12;
+        int c=2;
+        int d=2;
+        float e=7.8f;
+        float f=1.5f;
+        float g=a*(b-c)/d+e-f;
+        System.out.println("g="+g);
+        }
+}
+---------------------------------------------------------------
+public class Al {
+    public static void main(String[] args) {
+        float a=4.5f;
+        float b=1.2f;
+        int c=82;
+        int d=2;
+        float e=5.6f;
+        float f=1.234f;
+        float g=a*b-(c/d)-e+f;
+        System.out.println("g="+g);
+        }
+}
+--------------------------------------------------------------
+public class Al {
+    public static void main(String[] args) {
+        int a=8;
+        int b=1;
+        int c=4;
+        int d=2;
+        int e=1;
+        int f=6;
+        int g=a*b+(c-d)/e+f;
+        System.out.println("g="+g);
+        }
+}
+-----------------------------------------------------------------
+public class Al {
+    public static void main(String[] args) {
+        float a=3.4f;
+        float b=1.2f;
+        float c=3.7f;
+        float d=1.2f;
+        int e=2;
+        float f=6.8f;
+        float g=a+b*(c-d)/e+f;
+        System.out.println("g="+g);
+        }
+}
+---------------------------------------------------------------
+public class Al {
+    public static void main(String[] args) {
+        float a=8.9f;
+        float b=1.67f;
+        float c=6.21f;
+        float d=5.6f;
+        float e=7.8f;
+        int f=34;
+        long g=157;
+        float h=a*b-(c-d)+e-f+g;
+        System.out.println("h="+h);
+        }
+}

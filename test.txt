@@ -1,0 +1,408 @@
+1)Write a program to check if a number is even or odd
+//
+import java.util.Scanner;
+public class Two {
+    public static void main(String[] args) {
+//1)check a number is even or odd ?
+System.out.println("enter a number=");
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+if(n %2 == 0) 
+{
+System.out.println("even:");
+}else
+{
+    System.out.println("odd:");
+}
+
+}
+    }
+
+
+2)Write a program to determine whether a character is a vowel or consonant.
+
+import java.util.Scanner;
+public class Two {
+//vowel and consonant 
+    public static void main(String[] args) {
+System.out.println("enter character=");
+Scanner sc=new Scanner(System.in);
+char ch=sc.next().charAt(0);
+if(ch=='a'|| ch=='e' ||ch=='i' || ch=='o' ||ch=='u') 
+{
+System.out.println("vowel");
+}else
+{
+    System.out.println("consonant");
+}
+
+}
+    }
+3)
+Write a program to determine the grade of a student based on their marks:
+
+90 and above: A
+80 to 89: B
+70 to 79: C
+60 to 69: D
+Below 60: F
+import java.util.Scanner;
+
+public class Aa {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the student's marks: ");
+        int marks = scanner.nextInt();
+
+        String grade;
+
+        if (marks >= 90) {
+            grade = "A";
+        } else if (marks >= 80) {
+            grade = "B";
+        } else if (marks >= 70) {
+            grade = "C";
+        } else if (marks >= 60) {
+            grade = "D";
+        } else {
+            grade = "F";
+        }
+
+        System.out.println("The student's grade is: " + grade);
+    }
+}
+
+
+4)
+Write a program to check if a number is divisible by 5 and 11.
+import java.util.Scanner;
+public class Two {
+    public static void main(String[] args) {
+//input a number and a number is divisible by both 2 and 4
+
+
+System.out.println("enter a number=");
+Scanner sc=new Scanner(System.in);
+int num=sc.nextInt();
+if(num%5==0 && num%11==0) 
+{
+System.out.println("divisible");
+}else
+{
+    System.out.println("not divisible");
+}
+
+}
+    }
+5)
+Write a program to find the factorial of a number
+public class While {
+    public static void main(String[] args) {
+      //factorial 
+      //5  
+        int num = 5,fact = 1 ;
+        int temp = num;
+        while(num>=1 ){
+          fact = fact*num;
+          num--; 
+        }
+        System.out.println("Factorial "+temp+" is: "+fact);
+    }
+}
+6)
+Write a program to check if a number is a palindrome.
+public class While{
+    public static void main(String[]args){
+        //pallindrome number 
+        //12321  
+        int num=12321,a=0,ans=0;
+        int temp=num;
+       while(num>0){
+       a=num%10;
+       ans=ans*10+a;
+       num=num/10;
+       }
+       if (temp==ans) {
+        System.out.println(temp+"is a palindrome");
+       }else{
+        System.out.println(temp+"is not pallindrome numbere");
+       }
+    
+    }
+}
+7)
+ Write a program to find the sum of the digits of a given number using a while loop
+import java.util.Scanner;
+
+public class While {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+ 
+        number = Math.abs(number);
+        
+        int sum = 0;
+        
+        while (number > 0) {
+            int digit = number % 10; 
+            sum += digit;           
+            number /= 10;            
+        }
+        
+        System.out.println("The sum of the digits is: " + sum);
+    }
+}
+8)
+Write a program to print the first 10 natural numbers using a for loop.
+public class While{
+    public static void main(String[]args){
+        int i=1;
+        while(i<=10){
+        System.out.print(i);
+        i++;
+        }
+    }
+}
+9)
+Write a program to print the multiplication table of a given number using a while loop.
+public class While{
+    public static void main(String[]args){
+        //1--->10 sum (addition) 
+        int num=2;
+        int i=1;
+       while(i <= 10){
+        System.out.println((num*i));
+        i++;
+       }
+    }
+}
+10)Write a program to print all even numbers sum between 1 and 100 using a for loop.
+public class Sum {
+    public static void main(String[] args) {
+        int sum = 0;
+
+       
+        for (int i = 1; i <= 100; i++) {
+            // Check if the number is even
+            if (i % 2 == 0) {
+                sum += i;  
+            }
+        }
+
+        System.out.println("The sum of all even numbers between 1 and 100 is: " + sum);
+    }
+}
+11)
+Write a program to reverse a given number using a while loop.
+public class While{
+    public static void main(String[]args){
+        //while : 
+    //reverse number 
+    //657
+    //756 
+        int num=657,a=0,ans=0;
+       while(num>0){
+       a=num%10;
+       ans=ans*10+a;
+       num=num/10;
+       }
+        System.out.println(ans);
+       }
+    }
+12)
+Write a program to check if a given number is a palindrome using a while loop.
+public class While{
+    public static void main(String[]args){
+        //pallindrome number 
+        //12321  
+        int num=12321,a=0,ans=0;
+        int temp=num;
+       while(num>0){
+       a=num%10;
+       ans=ans*10+a;
+       num=num/10;
+       }
+       if (temp==ans) {
+        System.out.println(temp+"is a palindrome");
+       }else{
+        System.out.println(temp+"is not pallindrome numbere");
+       }
+    
+    }
+}
+13)
+ Write a program to print the Fibonacci series up to N terms using a for loop.
+public class While {
+  public static void main(String[] args) {
+    //fibonacci series 
+   // 0 1 1 2 3 5 
+      int a = 0 , b=1,c;
+      int i = 1;
+      System.out.print(a+" ");
+      System.out.print(b+" ");
+      while(i<=5 ){
+       c=a+b;
+       System.out.print(c+ " ");
+       a=b;
+       b=c;
+       i++;
+      }
+  }
+}
+14)
+Write a program to find the five of three numbers.		
+import java.util.Scanner;
+
+public class ThreeNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.print("Enter the second number: ");
+        double num2 = scanner.nextDouble();
+
+        System.out.print("Enter the third number: ");
+        double num3 = scanner.nextDouble();
+
+      
+        double average = (num1 + num2 + num3) / 3;
+
+       
+        System.out.println("The average of the three numbers is: " + average);
+    }
+}
+
+15)
+Write a program to print  Armstrong numbers
+public class While{
+    public static void main(String[]args){
+        //armstrong number 
+            //153   
+        int num=153,a=0,ans=0;
+        int temp=num;
+       while(num>0){
+       a=num%10;
+       ans=ans+a*a*a;
+       num=num/10;
+       }
+       if (temp==ans) {
+        System.out.println(temp+"is a armstrong number");
+       }else{
+        System.out.println(temp+"is not armstrong numbere");
+       }
+    
+    }
+}
+16)
+Write a program to categorize an employee based on their salary:
+
+Below 2000: Low Income
+2000 to 5000: Middle Income
+Above 5000: High Income
+import java.util.Scanner;
+
+public class Aa {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the employee's salary: ");
+        double salary = scanner.nextDouble();
+
+        String incomeCategory;
+
+        if (salary < 2000) {
+            incomeCategory = "Low Income";
+        } else if (salary <= 5000) {
+            incomeCategory = "Middle Income";
+        } else {
+            incomeCategory = "High Income";
+        }
+
+        System.out.println("The employee's income category is: " + incomeCategory);
+    }
+}
+17)
+Write a program to classify a given month number (1-12) into its corresponding season:
+
+Winter: December, January, February
+Spring: March, April, May
+Summer: June, July, August
+Autumn: September, October, November
+
+
+18)
+Write a program to categorize a person based on their age:
+
+0-12: Child
+13-19: Teenager
+20-59: Adult
+60 and above: Senior
+
+19)
+Write a program to convert a given temperature from Celsius to Fahrenheit or Fahrenheit to Celsius based on user input.
+import java.util.Scanner;
+public class Two {
+//C program to convert temperature from Fahrenheit to Celsius and Celsius to Fahrenheit
+//celsius 
+//f---->c 
+//fahrenheit
+//c---f 
+
+    public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.println("enter Choice celsius or fahrenheit: ");
+String s = sc.next();
+if(s.equals("celsius")){
+    System.out.println("Enter celsius: ");
+    int cel = sc.nextInt();
+    int fer = (cel*9/5)+32;
+    System.out.println("Temprature in Fahrenheit: "+fer);
+}
+else if(s.equals("fahrenheit")){
+    System.out.println("Enter Fahrenheit: ");
+    int fah = sc.nextInt();
+    int cels = (fah-32)*5/9;
+    System.out.println("Temprature in Celsius: "+cels);
+
+}
+else{
+    System.out.println("Invalid Choice");
+}
+
+}
+    }
+20)							
+Write a program to find the largest of three numbers.	
+import java.util.Scanner;
+
+public class Largest {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+       
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+
+        System.out.print("Enter the third number: ");
+        int num3 = scanner.nextInt();
+
+       
+        int largest;
+        if (num1 >= num2 && num1 >= num3) {
+            largest = num1;
+        } else if (num2 >= num1 && num2 >= num3) {
+            largest = num2;
+        } else {
+            largest = num3;
+        }
+
+       
+        System.out.println("The largest of the three numbers is: " + largest);
+    }
+}

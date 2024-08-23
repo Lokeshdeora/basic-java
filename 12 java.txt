@@ -1,0 +1,11 @@
+software :
+-> set of instruction and command
+
+what is java?
+-java is programming language .
+->java is hiht level , rubust,plateform independent ,secure.
+
+-->High level=easy and human understand able.
+-->robust=strongly type lang.-->strong memory management.
+
+===extension pack for java==

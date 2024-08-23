@@ -1,0 +1,51 @@
+public class Main {
+
+    public static void main(String[] args){
+        System.out.print("Hello world !");
+    }
+}
+
+-------------------------------------------------
+public class Friendname {
+
+
+    public static void main(String[] args) {
+        System.out.println("vaibhav");
+        System.out.println("abhishek");
+        System.out.println("govind");
+        System.out.println("vandana");
+        System.out.println("mohit");
+
+    }
+}
+------------------------------------------------
+public class Countryname {
+    public static void main(String[] args){
+        System.out.println("india");
+        System.out.println("thailand");
+        System.out.println("america");
+        System.out.println("londan");
+        System.out.println("pakisthan");
+    }
+
+}
+-------------------------------------------------
+public class Cityname {
+    public static void main(String[] args) {
+        System.out.println("jaipur");
+        System.out.println("jodhpur");
+        System.out.println("ajmer");
+        System.out.println("udaipur");
+        System.out.println("alwar");
+    }
+}
+----------------------------------------------------
+public class Foodname {
+    public static void main(String[] args) {
+        System.out.println("dal bati");
+        System.out.println("dal chawal");
+        System.out.println("namkeen chawal");
+        System.out.println("pizza");
+        System.out.println("pasta");
+    }
+}

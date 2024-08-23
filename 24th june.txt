@@ -1,0 +1,53 @@
+1.
+#include <stdio.h>
+
+int main() {
+    int i = 1;  
+    
+    while (i <= 100) {
+        printf("%d\n", i);
+  i++; 
+  }
+    
+}
+
+2.
+#include <stdio.h>
+
+int main() {
+    int i = 100;  
+    
+    while (i >= 1) {
+        printf("%d\n", i);
+  i--; 
+  }
+    
+}
+
+3.
+
+}#include <stdio.h>
+
+int main() {
+    int i = 2;  
+    while (i <= 100) {
+        printf("%d\n", i);
+        i += 2;  
+    }
+    
+    return 0;
+}
+
+4.
+int main() {
+    int i = 1; 
+    while (i <= 100) {
+        printf("%d\n", i);
+        i += 2;  
+    }
+    
+    return 0;
+}
+
+5.
+typecasting
